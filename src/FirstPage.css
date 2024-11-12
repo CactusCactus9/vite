@@ -1,0 +1,68 @@
+.First-page-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #3F4054;
+    padding-top: 50px;
+}
+.Ban {
+    margin-top: 50px;
+}
+
+.PongFirstPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.GameMode {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 100px;
+}
+
+.Mode {
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.Dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.LocalDot {
+    background-color: rgb(223, 55, 114);
+}
+
+.OnlineDot {
+    background-color: rgb(32, 208, 85);
+}
+
+.Start-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .START {
+    background-color: #b2ff00;
+    border-radius: 20px;
+    padding: 10px, 40px;
+    border: none;
+    padding: 10px 40px;
+    cursor: pointer;
+    
+  }

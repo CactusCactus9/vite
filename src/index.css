@@ -1,0 +1,16 @@
+/* Ensure body and html are full height */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Add this to the .menu-background */
+.menu-background {
+  height: 100vh; /* Full viewport height */
+  width: 100vw;  /* Full viewport width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f2e47; /* Background color as per design */
+}
